@@ -40,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowPlantUML.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/llk/adapter/objectAdapter" />
@@ -50,11 +51,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.llk.observer.air" />
       <recent name="com.llk.singleton.serializabletest" />
       <recent name="com.llk.singleton.three" />
       <recent name="com.llk.singleton.second" />
       <recent name="com.llk.singleton.four" />
-      <recent name="com.llk.singleton.five" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\idea_workspace\designPatternDemo\src\com\llk\adapter\objectAdapter" />
@@ -62,20 +63,7 @@
       <recent name="E:\idea_workspace\designPatternDemo\src\com\llk\decorator\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
-    <configuration name="ReflectTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.llk.singleton.five.ReflectTest" />
-      <module name="designPatternDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.llk.singleton.five.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test (5)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.llk.singleton.clonetest.Test" />
       <module name="designPatternDemo" />
@@ -115,12 +103,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.llk.singleton.reflecttest.Test" />
+    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.llk.observer.example.Test" />
       <module name="designPatternDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.llk.singleton.reflecttest.*" />
+          <option name="PATTERN" value="com.llk.observer.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.llk.observer.air.Test" />
+      <module name="designPatternDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.llk.observer.air.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (5)" />
+        <item itemvalue="Application.Test (4)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ReflectTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +186,8 @@
       <workItem from="1601002109440" duration="8272000" />
       <workItem from="1601167206992" duration="6103000" />
       <workItem from="1601192567668" duration="5084000" />
-      <workItem from="1601253870615" duration="10050000" />
+      <workItem from="1601253870615" duration="13057000" />
+      <workItem from="1601345627869" duration="7064000" />
     </task>
     <servers />
   </component>
@@ -193,30 +195,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="760" y="111" key="#com.intellij.ide.util.MemberChooser" timestamp="1601261567253">
+    <state x="760" y="111" key="#com.intellij.ide.util.MemberChooser" timestamp="1601364771789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="760" y="111" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601261567253" />
+    <state x="760" y="111" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601364771789" />
     <state x="493" y="132" key="FileChooserDialogImpl" timestamp="1600932402859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="493" y="132" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600932402859" />
-    <state width="1855" height="304" key="GridCell.Tab.0.bottom" timestamp="1601271922754">
+    <state width="1855" height="199" key="GridCell.Tab.0.bottom" timestamp="1601371765697">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601271922754" />
-    <state width="1855" height="304" key="GridCell.Tab.0.center" timestamp="1601271922754">
+    <state width="1855" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601371765697" />
+    <state width="1855" height="199" key="GridCell.Tab.0.center" timestamp="1601371765696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="304" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601271922754" />
-    <state width="1855" height="304" key="GridCell.Tab.0.left" timestamp="1601271922754">
+    <state width="1855" height="199" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601371765696" />
+    <state width="1855" height="199" key="GridCell.Tab.0.left" timestamp="1601371765695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="304" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601271922754" />
-    <state width="1855" height="304" key="GridCell.Tab.0.right" timestamp="1601271922754">
+    <state width="1855" height="199" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601371765695" />
+    <state width="1855" height="199" key="GridCell.Tab.0.right" timestamp="1601371765696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="304" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601271922754" />
+    <state width="1855" height="199" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601371765696" />
     <state width="1855" height="81" key="GridCell.Tab.1.bottom" timestamp="1600767012777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -237,10 +239,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600932403615" />
-    <state x="506" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1601253870611">
+    <state x="506" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1601345671528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="506" y="251" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601253870611" />
+    <state x="506" y="251" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601345671528" />
     <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup" timestamp="1600939118336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

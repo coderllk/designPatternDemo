@@ -9,7 +9,7 @@ public class Client {
         //给Abstraction设置Implementor
         vCollar.setColor(red);
         vCollar.setSize(large);
-        
+
         System.out.println(vCollar.showStyle());
         vCollar.operateSomething();
     }

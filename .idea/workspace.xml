@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8c5d9152-2fdd-4b87-8f60-7b5fa0ae0eaa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/llk/bridge/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/llk/bridge/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     <property name="ToolWindowPlantUML.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/llk/adapter/objectAdapter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/llk/strategy/improve" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.30535457" />
@@ -51,19 +52,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.llk.strategy.simple" />
+      <recent name="com.llk.builder.example" />
       <recent name="com.llk.observer.air" />
       <recent name="com.llk.singleton.serializabletest" />
       <recent name="com.llk.singleton.three" />
-      <recent name="com.llk.singleton.second" />
-      <recent name="com.llk.singleton.four" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea_workspace\designPatternDemo\src\com\llk\strategy\improve" />
       <recent name="E:\idea_workspace\designPatternDemo\src\com\llk\adapter\objectAdapter" />
       <recent name="E:\idea_workspace\designPatternDemo\lib" />
       <recent name="E:\idea_workspace\designPatternDemo\src\com\llk\decorator\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (3)">
+  <component name="RunManager" selected="Application.Client (4)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.llk.mediator.number.Client" />
       <module name="designPatternDemo" />
@@ -103,6 +105,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.llk.strategy.Client" />
+      <module name="designPatternDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.llk.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.llk.mediator.example.Client" />
       <module name="designPatternDemo" />
@@ -116,12 +131,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.llk.observer.example.Test" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.llk.strategy.simple.Client" />
       <module name="designPatternDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.llk.observer.example.*" />
+          <option name="PATTERN" value="com.llk.strategy.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.llk.builder.car.Client" />
+      <module name="designPatternDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.llk.builder.car.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (4)" />
+        <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Test (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +207,11 @@
       <workItem from="1602204116091" duration="10739000" />
       <workItem from="1602289606821" duration="8725000" />
       <workItem from="1602464960395" duration="3055000" />
-      <workItem from="1602549582208" duration="3091000" />
+      <workItem from="1602549582208" duration="4924000" />
+      <workItem from="1602636162594" duration="11653000" />
+      <workItem from="1602722464511" duration="691000" />
+      <workItem from="1603068220646" duration="1200000" />
+      <workItem from="1603350155678" duration="3225000" />
     </task>
     <servers />
   </component>
@@ -187,30 +219,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="760" y="111" key="#com.intellij.ide.util.MemberChooser" timestamp="1602557040432">
+    <state x="760" y="111" key="#com.intellij.ide.util.MemberChooser" timestamp="1603351309222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="760" y="111" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602557040432" />
+    <state x="760" y="111" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603351309222" />
     <state x="493" y="132" key="FileChooserDialogImpl" timestamp="1600932402859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="493" y="132" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600932402859" />
-    <state width="1855" height="212" key="GridCell.Tab.0.bottom" timestamp="1602494952019">
+    <state width="1211" height="356" key="GridCell.Tab.0.bottom" timestamp="1603352388876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602494952019" />
-    <state width="1855" height="212" key="GridCell.Tab.0.center" timestamp="1602494952019">
+    <state width="1211" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603352388876" />
+    <state width="1211" height="356" key="GridCell.Tab.0.center" timestamp="1603352388876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="212" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602494952019" />
-    <state width="1855" height="212" key="GridCell.Tab.0.left" timestamp="1602494952019">
+    <state width="1211" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603352388876" />
+    <state width="1211" height="356" key="GridCell.Tab.0.left" timestamp="1603352388875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="212" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602494952019" />
-    <state width="1855" height="212" key="GridCell.Tab.0.right" timestamp="1602494952019">
+    <state width="1211" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603352388875" />
+    <state width="1211" height="356" key="GridCell.Tab.0.right" timestamp="1603352388876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="212" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602494952019" />
+    <state width="1211" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603352388876" />
     <state width="1855" height="81" key="GridCell.Tab.1.bottom" timestamp="1600767012777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -231,10 +263,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600932403615" />
-    <state x="506" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1602550576335">
+    <state x="506" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1603068933090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="506" y="251" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602550576335" />
+    <state x="506" y="251" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603068933090" />
     <state x="453" y="0" width="1009" height="1036" key="search.everywhere.popup" timestamp="1600939118336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
